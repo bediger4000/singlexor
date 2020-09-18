@@ -44,13 +44,14 @@ $
 This is a crypto question,
 which is somewhat unfortunate for the candidate,
 as crypto problems always always always have the weirdest bugs,
-and are finicy to get right.
+and are finicky to get right.
 
 [Key elimination](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#Key_elimination)
 requires a known plaintext.
 While the problem statement does give an entire plaintext
 for the example ciphertext,
 the problem statement doesn't say you've got one.
+Other than that, key elimination would work well with single-byte keys.
 
 Only 256 single-byte XOR keys exist (values 0 through 255),
 so it's computationally feasible to iterate through all of them
