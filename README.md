@@ -97,3 +97,8 @@ programming will make dreadful mistakes.
 
 Maybe the interviewers accepted not-quite-perfect programs
 just so they could see the candidates write some code.
+
+## Around the web
+
+Ha ha!, This is [crypto-pals challenge 3](https://cryptopals.com/sets/1/challenges/3).
+Which I had [already done](https://cryptopals.com/sets/1/challenges/3) when I did this Daily Coding Problem.
