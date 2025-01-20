@@ -61,6 +61,11 @@ ciphertext to (mostly) ASCII bytes,
 so it's not possible to just say "whatever key byte" decodes
 every ciphertext byte to ASCII.
 
+The classic [Index of Coincidence](https://en.wikipedia.org/wiki/Index_of_coincidence)
+can't be used to "rate" a decoding.
+Because a single character key gets XORed with the cleartext,
+the Index of Coincidence is the same for ciphertext and cleartext.
+
 Luckily, I have some [classic cipher code](https://github.com/bediger4000/vigenere-ciphering-deciphering) from a while back.
 It includes a way to compare possible cleartext with English
 character frequencies.
